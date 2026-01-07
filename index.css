@@ -1,4 +1,90 @@
-body{
-  background-color: gray;
-  font-family: "Gill Sans Extrabold", sans-serif;
+body {
+    background: #fff;
+    font-family: "PP Mori ExtraBold", sans-serif;
+}
+
+nav{
+    font-family: "PP Mori Regular", sans-serif;
+}
+
+@font-face {
+    font-family: "PP Mori";
+
+    src: url("https://github.com/carpioredo/carpio/blob/main/fonts/PPMori-ExtraBold.ttf");
+    src: url("https://github.com/carpioredo/carpio/blob/main/fonts/PPMori-Regular.ttf");
+}
+
+/*
+My  navigation
+*/
+
+nav{
+    border-bottom: 2px solid #eeeeee;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.push{
+    margin-left: auto;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+
+.push a{
+    color: white;
+}
+
+.greetings{
+    font-size: 12rem;
+}
+.profile-photo{
+    width: 20%;
+}
+.hero-introduction{
+    background-color: white;
+    height: 100vh;
+}
+.about-me{
+    background-color: lightseagreen;
+    height: 100vh;
+}
+.contact{
+    background-color: lightskyblue;
+    height: 100vh;
+}
+.projects img{
+    width: 20%;
+}
+.blogs{
+    background-color: lightsalmon;
+    height: 100vh;
+}
+.blog-entrances img{
+    width: 100%;
+
+}
+.blog-entrances{
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+}
+.blog-entrances div{
+    flex: 1 350px;
+}
+.video-about{
+    margin-bottom: 84px;
 }
