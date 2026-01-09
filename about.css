@@ -1,0 +1,90 @@
+body {
+    background: #fff;
+    font-family: "PP Mori ExtraBold", sans-serif;
+}
+
+nav{
+    font-family: "PP Mori Regular", sans-serif;
+}
+
+@font-face {
+    font-family: "PP Mori";
+
+    src: url("https://github.com/carpioredo/carpio/blob/main/fonts/PPMori-ExtraBold.ttf");
+    src: url("https://github.com/carpioredo/carpio/blob/main/fonts/PPMori-Regular.ttf");
+}
+
+/*
+My  navigation
+*/
+
+nav{
+    border-bottom: 2px solid #eeeeee;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(104, 101, 101);
+    padding: 10px;
+    display: block;
+}
+nav a:hover{
+  border-bottom: 3px solid greenyellow;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.push{
+    margin-left: auto;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+
+.push a{
+    color: white;
+}
+
+.greetings{
+    font-size: 12rem;
+}
+.profile-photo{
+    width: 20%;
+}
+.hero-introduction{
+    background-color: white;
+
+}
+.about{
+    display: grid;
+    grid-template-columns: 45% 1fr 1fr;
+    height: 80vh;
+}
+.about-desc{
+    font-size: 2rem;
+}
+.flex-contact{
+
+  display: flex;
+}
+
+.contact a{
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 2rem;
+  color: rgb(104, 101, 101);
+}
+.contact a:hover{
+  border-bottom: 3px solid greenyellow;
+}
+
+.contact p{
+  font-family: "PP Mori Regular", sans-serif;
+  font-size: 2rem;
+}
