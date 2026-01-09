@@ -24,9 +24,12 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: black;
+    color: rgb(104, 101, 101);
     padding: 10px;
     display: block;
+}
+nav a:hover{
+  border-bottom: 3px solid greenyellow;
 }
 
 nav ul{
@@ -58,33 +61,22 @@ nav ul{
     background-color: white;
     height: 100vh;
 }
-.about-me{
-    background-color: lightseagreen;
-    height: 100vh;
+.flex-contact{
+  height: 100vh;
+  display: flex;
 }
-.contact{
-    background-color: lightskyblue;
-    height: 100vh;
-}
-.projects img{
-    width: 20%;
-}
-.blogs{
-    background-color: lightsalmon;
-    height: 100vh;
-}
-.blog-entrances img{
-    width: 100%;
 
+.contact a{
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 2rem;
+  color: rgb(104, 101, 101);
 }
-.blog-entrances{
-    display: flex;
-    gap: 20px;
-    flex-flow: row wrap;
+.contact a:hover{
+  border-bottom: 3px solid greenyellow;
 }
-.blog-entrances div{
-    flex: 1 350px;
-}
-.video-about{
-    margin-bottom: 84px;
+
+.contact p{
+  font-family: "PP Mori Regular", sans-serif;
+  font-size: 2rem;
 }
