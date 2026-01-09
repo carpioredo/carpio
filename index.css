@@ -52,20 +52,31 @@ nav ul{
 }
 
 .greetings{
-    font-size: 12rem;
+    font-size: 15rem;
+    margin-top: 6rem;
+    margin-bottom: 0;
+
 }
-.profile-photo{
-    width: 20%;
+
+
+.hero-introduction{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
 }
+
 .hero-introduction{
     background-color: white;
     height: 100vh;
 }
 .flex-contact{
-  height: 100vh;
   display: flex;
+  
 }
-
+footer{
+    margin-top: 8rem;
+}
 .contact a{
   text-decoration: none;
   display: inline-block;
